@@ -1,0 +1,13 @@
+Sahne 1:
+Soru1: her tick te bir miktar artan ve belirli seviyeye geldiğinde artmayı bırakan bir force eklerdim.
+Soru2:Yer çekimi force'unu Unity'nin kendisi hallediyor, ayrıyaten kod yazmamıza gerek yok. Atmosfer yoğunluğu içinde Bir sürtünme kuvvetini simüle eden kod yazabiliriz.
+cv^2 (c: sürtünme katsayısı v: mekiğin hızı) formülünü kullanarak c'ye vereceğimiz değerlerle kalın ve ince atmosfer simulasyonu gerçekleştirebiiriz
+Sahne 2:
+Soru 1:
+if usage=manuel;
+  ForceMode = ForceMode.Acceleration
+else;
+   ForceMode = ForceMode.Force
+Sahne 3:
+Soru1: Dash yönünü havadayken, karakterin mutlak velocity'sini hiç azalmadan değiştirdiğimizde; Velocity Change normalde Dash attığımızda olan değerin 2 katı kadar değer alabilir, 
+aynı zamanda zıplama ve düşüş sırasında uygulanır ise de, bu 2 katı kadar olabilen değeri, karakterin z eksenindeki hızıyla dot product yaptığımızda ise 2 kattan da büyük değerler elde edebiliriz
